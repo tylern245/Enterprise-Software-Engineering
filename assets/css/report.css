@@ -1,0 +1,67 @@
+body {
+    background-color: #e5eff8 !important;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-decoration-line: overline, underline;
+    text-decoration-color: black;
+}
+
+
+.myinfo, #table-of-contents {
+	padding: 20px;
+	margin: 20px;
+}
+
+#table-header th {
+	display: table-cell;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+
+hr.myborder {
+    width: 95%;
+    border: medium double #333;
+    /* border-top: medium double #333; */
+    color: #333;
+    text-align: center;
+}
+
+hr.list-border {
+    width: 100%;
+    border: solid thin;
+    color: black;
+}
+
+table{
+    border: 1px solid black;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+th {
+    background: #66adeb;
+}
+
+th, tr, td{
+	border: 1px solid black;
+	padding: 5px;
+}
+
+
+tbody tr:hover {
+    background-color: yellow;
+
+}
+
+#loanListItem {
+    padding: 10px;
+    transition: background-color .3s ease-in-out;
+}
+
+#loanListItem:hover {
+    background-color:bisque;
+}
